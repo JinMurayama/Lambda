@@ -8,7 +8,7 @@ athena = boto3.client('athena')
 
 def lambda_handler(event, context):
     
-    dbname = ""　＃Athenaのdatabase名
+    dbname = ""　＃Athenaのdatabase名 
     table_name = '' #Athenaのtable名
     result_location = '' #格納するバケット名
     bucket = '' #wafのログが格納されるバケット名
